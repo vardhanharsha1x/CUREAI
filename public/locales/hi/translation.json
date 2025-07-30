@@ -1,0 +1,70 @@
+{
+  "header": {
+    "about": "हमारे बारे में",
+    "privacy_policy": "गोपनीयता नीति",
+    "contact": "संपर्क",
+    "faq": "सामान्य प्रश्न",
+    "sign_in": "साइन इन करें",
+    "sign_out": "साइन आउट"
+  },
+  "footer": {
+    "about": "हमारे बारे में",
+    "privacy_policy": "गोपनीयता नीति",
+    "contact": "संपर्क",
+    "faq": "सामान्य प्रश्न",
+    "copyright": "© {{year}} क्योरएआई. सर्वाधिकार सुरक्षित।",
+    "disclaimer": "अस्वीकरण: क्योरएआई केवल शैक्षिक उद्देश्यों के लिए जानकारी प्रदान करता है और यह पेशेवर चिकित्सा सलाह, निदान या उपचार का विकल्प नहीं है। किसी भी चिकित्सीय स्थिति के बारे में आपके किसी भी प्रश्न के लिए हमेशा अपने चिकित्सक या अन्य योग्य स्वास्थ्य प्रदाता की सलाह लें।"
+  },
+  "symptom_selector": {
+    "title": "एआई लक्षण परीक्षक",
+    "description": "संभावित निदान प्राप्त करने के लिए कम से कम 3 लक्षण चुनें।",
+    "symptom": "लक्षण",
+    "optional": "(वैकल्पिक)",
+    "tooltip": "सूची में से एक लक्षण चुनें।",
+    "select_symptom": "एक लक्षण चुनें",
+    "search_symptom": "लक्षण खोजें...",
+    "no_symptom_found": "कोई लक्षण नहीं मिला।",
+    "diagnose_illness": "बीमारी का निदान करें"
+  },
+  "auth": {
+    "sign_in": "साइन इन करें",
+    "sign_up": "साइन अप करें",
+    "welcome_back": "वापसी पर स्वागत है",
+    "sign_in_prompt": "क्योरएआई पर जारी रखने के लिए साइन इन करें।",
+    "email": "ईमेल",
+    "email_placeholder": "you@example.com",
+    "password": "पासवर्ड",
+    "signing_in": "साइन इन हो रहा है...",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "create_account": "खाता बनाएं",
+    "sign_up_prompt": "आज ही क्योरएआई के साथ शुरुआत करें।",
+    "creating_account": "खाता बनाया जा रहा है...",
+    "magic_link_title": "... या मैजिक लिंक से साइन इन करें",
+    "magic_link_placeholder": "मैजिक लिंक के लिए आपका ईमेल",
+    "sending": "भेज रहा है...",
+    "get_link": "लिंक प्राप्त करें"
+  },
+  "results": {
+    "likely_diagnosis": "संभावित निदान",
+    "last_checked": "अंतिम बार जांचा गया: {{timestamp}}",
+    "suggested_remedy": "सुझाए गए उपाय",
+    "recommended_diet": "अनुशंसित आहार",
+    "ai_assistant": "एआई स्वास्थ्य सहायक",
+    "ask_follow_up": "एक अनुवर्ती प्रश्न पूछें..."
+  },
+  "floating_cta": {
+    "check_another": "दूसरा लक्षण जांचें"
+  },
+  "symptoms": {
+    "fever": "बुखार",
+    "cough": "खांसी",
+    "shortness of breath": "सांस की तकलीफ",
+    "fatigue": "थकान",
+    "muscle or body aches": "मांसपेशियों या शरीर में दर्द",
+    "headache": "सरदर्द",
+    "new loss of taste or smell": "स्वाद या गंध का नया नुकसान",
+    "sore throat": "गले में खराश",
+    "congestion or runny nose": "भीड़ या बहती नाक",
+    "nausea or vomiting": "मतली या उल्टी"
+  }
+}

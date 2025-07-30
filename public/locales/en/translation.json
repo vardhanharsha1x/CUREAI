@@ -1,0 +1,70 @@
+{
+  "header": {
+    "about": "about",
+    "privacy_policy": "privacy policy",
+    "contact": "contact",
+    "faq": "faq",
+    "sign_in": "sign in",
+    "sign_out": "sign out"
+  },
+  "footer": {
+    "about": "about",
+    "privacy_policy": "privacy policy",
+    "contact": "contact",
+    "faq": "faq",
+    "copyright": "© {{year}} cureai. all rights reserved.",
+    "disclaimer": "disclaimer: cureai provides information for educational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition."
+  },
+  "symptom_selector": {
+    "title": "ai symptom checker",
+    "description": "select at least 3 symptoms to get a possible diagnosis.",
+    "symptom": "symptom",
+    "optional": "(optional)",
+    "tooltip": "select a symptom from the list.",
+    "select_symptom": "select a symptom",
+    "search_symptom": "search symptom...",
+    "no_symptom_found": "no symptom found.",
+    "diagnose_illness": "diagnose illness"
+  },
+  "auth": {
+    "sign_in": "sign in",
+    "sign_up": "sign up",
+    "welcome_back": "welcome back",
+    "sign_in_prompt": "sign in to continue to cureai.",
+    "email": "email",
+    "email_placeholder": "you@example.com",
+    "password": "password",
+    "signing_in": "signing in...",
+    "forgot_password": "forgot password?",
+    "create_account": "create an account",
+    "sign_up_prompt": "get started with cureai today.",
+    "creating_account": "creating account...",
+    "magic_link_title": "... or sign in with a magic link",
+    "magic_link_placeholder": "your email for a magic link",
+    "sending": "sending...",
+    "get_link": "get link"
+  },
+  "results": {
+    "likely_diagnosis": "likely diagnosis",
+    "last_checked": "last checked: {{timestamp}}",
+    "suggested_remedy": "suggested remedy",
+    "recommended_diet": "recommended diet",
+    "ai_assistant": "ai health assistant",
+    "ask_follow_up": "ask a follow-up question..."
+  },
+  "floating_cta": {
+    "check_another": "check another symptom"
+  },
+  "symptoms": {
+    "fever": "fever",
+    "cough": "cough",
+    "shortness of breath": "shortness of breath",
+    "fatigue": "fatigue",
+    "muscle or body aches": "muscle or body aches",
+    "headache": "headache",
+    "new loss of taste or smell": "new loss of taste or smell",
+    "sore throat": "sore throat",
+    "congestion or runny nose": "congestion or runny nose",
+    "nausea or vomiting": "nausea or vomiting"
+  }
+}

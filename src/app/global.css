@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer base {
+  :root {
+    /* Material 3 Light Theme */
+    --background: 204 20% 98%; /* Surface */
+    --foreground: 220 13% 13%; /* On Surface */
+
+    --card: 204 20% 98%; /* Surface */
+    --card-foreground: 220 13% 13%; /* On Surface */
+
+    --popover: 200 15% 95%; /* Surface Container */
+    --popover-foreground: 220 13% 13%; /* On Surface */
+
+    --primary: 217 89% 61%; /* Primary */
+    --primary-foreground: 210 100% 100%; /* On Primary */
+
+    --secondary: 216 34% 57%; /* Secondary */
+    --secondary-foreground: 210 100% 100%; /* On Secondary */
+
+    --muted: 214 36% 89%; /* Surface Variant */
+    --muted-foreground: 217 26% 30%; /* On Surface Variant */
+    
+    --accent: 259 64% 66%; /* Tertiary */
+    --accent-foreground: 210 100% 100%; /* On Tertiary */
+    
+    --destructive: 359 82% 60%; /* Error */
+    --destructive-foreground: 0 0% 100%; /* On Error */
+
+    --border: 216 28% 79%; /* Outline */
+    --input: 214 36% 89%; /* Surface Variant for Inputs */
+    --ring: 217 89% 61%; /* Primary */
+
+    --radius: 1.75rem; /* Large radius for M3 shape */
+  }
+
+  .dark {
+    /* Material 3 Dark Theme */
+    --background: 220 13% 6%; /* Surface */
+    --foreground: 210 17% 91%; /* On Surface */
+
+    --card: 220 13% 6%; /* Surface */
+    --card-foreground: 210 17% 91%; /* On Surface */
+
+    --popover: 218 13% 12%; /* Surface Container */
+    --popover-foreground: 210 17% 91%; /* On Surface */
+
+    --primary: 198 93% 75%; /* Primary */
+    --primary-foreground: 200 100% 21%; /* On Primary */
+
+    --secondary: 198 48% 78%; /* Secondary */
+    --secondary-foreground: 200 98% 21%; /* On Secondary */
+    
+    --muted: 217 14% 22%; /* Surface Variant */
+    --muted-foreground: 215 15% 78%; /* On Surface Variant */
+    
+    --accent: 216 77% 83%; /* Tertiary */
+    --accent-foreground: 218 96% 23%; /* On Tertiary */
+
+    --destructive: 0 79% 75%; /* Error */
+    --destructive-foreground: 358 98% 20%; /* On Error */
+
+    --border: 217 14% 36%; /* Outline */
+    --input: 217 14% 22%; /* Surface Variant for Inputs */
+    --ring: 198 93% 75%; /* Primary */
+  }
+
+  /* Dynamic Theme Colors */
+  .theme-urgent {
+    --primary: 359 82% 60%; /* Error Color */
+    --primary-foreground: 0 0% 100%;
+  }
+  .dark .theme-urgent {
+    --primary: 0 79% 75%;
+    --primary-foreground: 358 98% 20%;
+  }
+
+  .theme-general {
+    --primary: 217 89% 61%; /* Default Primary */
+    --primary-foreground: 210 100% 100%;
+  }
+  .dark .theme-general {
+    --primary: 198 93% 75%;
+    --primary-foreground: 200 100% 21%;
+  }
+
+  .theme-minor {
+    --primary: 132 50% 50%; /* Green tone */
+    --primary-foreground: 0 0% 100%;
+  }
+  .dark .theme-minor {
+    --primary: 135 55% 75%;
+    --primary-foreground: 130 98% 20%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

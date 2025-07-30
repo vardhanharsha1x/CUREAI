@@ -1,0 +1,18 @@
+export const symptoms = [
+  'fever',
+  'cough',
+  'shortness of breath',
+  'fatigue',
+  'muscle or body aches',
+  'headache',
+  'new loss of taste or smell',
+  'sore throat',
+  'congestion or runny nose',
+  'nausea or vomiting',
+  'chest pain',
+  'wheezing',
+  'palpitations',
+  'swelling in legs',
+  'sudden numbness or weakness',
+  'sudden confusion',
+];
